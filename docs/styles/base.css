@@ -1,0 +1,48 @@
+:root {
+  --dark-blue: hsl(213, 19%, 18%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --white: hsl(0, 0%, 100%);
+
+  --box-shadow-bg: hsla(216, 12%, 8%, 0.6);
+  --bg-button: hsl(214, 19%, 21%);
+
+  --bg-accent: hsl(25, 97%, 53%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  display: grid;
+  height: 100vh;
+  padding: 20px;
+  place-content: center;
+}
+
+h1 {
+  color: var(--white);
+  font-weight: 400;
+  margin: 12px 0;
+}
+
+p {
+  color: var(--light-grey);
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+button {
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  transition: all .5s;
+}
